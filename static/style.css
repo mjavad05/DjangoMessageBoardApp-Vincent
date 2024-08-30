@@ -1,0 +1,70 @@
+/* static/css/style.css */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f6f8fa;
+    color: #24292e;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.site-header {
+    background-color: #24292e;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #e1e4e8;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.post-list {
+    margin-top: 30px;
+}
+
+.post-item {
+    background-color: #ffffff;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.post-item:hover {
+    background-color: #f6f8fa;
+    transform: translateY(-3px);
+}
+
+.post-item p {
+    margin: 0;
+    font-size: 1rem;
+    color: #586069;
+    line-height: 1.5;
+}
+
+.site-footer {
+    background-color: #24292e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #e1e4e8;
+    margin-top: 50px;
+}
+
+.site-footer p {
+    margin: 0;
+    font-size: 0.875rem;
+}
